@@ -1,2 +1,2 @@
 # curriculo  
- https://projetoduda.github.io/curriculo/
+https://projetoduda.github.io/curriculoduda/
