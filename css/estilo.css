@@ -1,0 +1,17 @@
+body{
+	background-color: #6f42c1;
+}
+.titulo{
+	padding-top: 7vh;
+    padding-bottom: 1vh;
+}
+
+
+.imgfoto{
+border-radius: 12%;
+transition: width 2s;
+}
+
+.gradiente{
+	background-image: linear-gradient (to right,#6610f2,#6f42c1);
+}
