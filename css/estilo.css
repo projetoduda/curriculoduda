@@ -1,17 +1,34 @@
-body{
-	background-color: #6f42c1;
+body{ 
+	 background-image:url("../img/img_fundo.jpg");
 }
-.titulo{
-	padding-top: 7vh;
-    padding-bottom: 1vh;
+.imggaleria{
+  width: 100%;
+  border-radius: 12%;
+  box-shadow: 10px 10px black;
+  transition: width 2s;
+ }
+
+  h3{
+ font-size: 1.2em;
+ text-decoration: underline;
 }
 
-
-.imgfoto{
-border-radius: 12%;
-transition: width 2s;
+.titulosh3 {
+       color:#363636;
+       font-weight: bolder;
+       text-align:center;
+       margin-top:2%; 
+       margin-bottom:2%;
 }
-
-.gradiente{
-	background-image: linear-gradient (to right,#6610f2,#6f42c1);
+.imgsobre{
+   width:20%; 
+   height:20%;
+   transition: width 2s, height 2s, transform 2s;
+}
+.imgsobre:hover{
+ 
+  transform: rotate(360deg);
+}
+.tituloblack{
+  color:black;
 }
