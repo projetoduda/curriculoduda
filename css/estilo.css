@@ -1,5 +1,5 @@
 body{ 
-	 background-image:url("../img/img_fundo.jpg");
+ background-color: rgb(199, 120, 202);
 }
 .imggaleria{
   width: 100%;
@@ -14,7 +14,7 @@ body{
 }
 
 .titulosh3 {
-       color:#363636;
+       color:rgb(0, 0, 0);
        font-weight: bolder;
        text-align:center;
        margin-top:2%; 
@@ -32,3 +32,10 @@ body{
 .tituloblack{
   color:black;
 }
+.titulo{
+  margin-top: 20px;
+}
+.borda_foto{
+    border: 2px ;
+    border-radius: 5px;
+  }
