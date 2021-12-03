@@ -1,12 +1,24 @@
 body{ 
  background-color: rgb(199, 120, 202);
+ overflow-x: hidden;
 }
 .imggaleria{
   width: 100%;
   border-radius: 12%;
   box-shadow: 10px 10px black;
   transition: width 2s;
- }
+}
+
+header,footer{
+     background-color:rgba(128,0,128);
+     padding:1%;
+     font-family: 'IM Fell Great Primer SC', serif;
+     position: relative; 
+     display: flex;
+     flex-direction:column;
+     font-size: 1.5em;
+     
+} 
 
   h3{
  font-size: 1.2em;
@@ -33,9 +45,44 @@ body{
   color:black;
 }
 .titulo{
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .borda_foto{
     border: 2px ;
     border-radius: 5px;
   }
+
+ #galeria{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  position: relative;
+  margin: 15px 15px;
+}
+
+#galeria .galeria{
+  margin: 15px 15px;
+  text-align: center;
+
+}
+
+.img-galeria{
+width: 100px;
+width: 100%;
+border-radius: 12%;
+box-shadow: 10px 10px black;
+transition: width 2s;
+}
+
+.img-galeria:hover {
+ width: 100px;
+}
+.m-auto{
+  margin: auto;
+}
+.img-p{
+  border-radius: 10%;
+  width: 50px;
+  width: 50%;
+  
+}
