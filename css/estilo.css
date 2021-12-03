@@ -67,8 +67,8 @@ header,footer{
 }
 
 .img-galeria{
-width: 100px;
-width: 100%;
+width: 75px;
+width: 75%;
 border-radius: 12%;
 box-shadow: 10px 10px black;
 transition: width 2s;
@@ -82,7 +82,7 @@ transition: width 2s;
 }
 .img-p{
   border-radius: 10%;
-  width: 50px;
-  width: 50%;
-  
+  width: 80px;
+  width: 80%;
+  border-radius: 7%;
 }
